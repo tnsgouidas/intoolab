@@ -19,7 +19,7 @@ build:
             dest: .
     - image: intoolab/client
       context: client
-      docker: 
+      docker:
         dockerfile: Dockerfile
       sync:
         manual:
