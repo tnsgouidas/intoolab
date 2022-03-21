@@ -9,7 +9,7 @@ spec:
   rules:
     - host: intoolab.dev 
       http:
-        paths: 
+        paths:
           - path: /api/users/?(.*)
             pathType: Prefix
             backend:
