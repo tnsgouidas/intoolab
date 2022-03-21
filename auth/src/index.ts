@@ -38,7 +38,7 @@ app.all('*', async (req, res, next) => {
 app.use(errorHandler);
 
 const start = async () => {
-  console.log("starting!!!aaaa1.")
+  console.log("starting!!!aaaa1111")
   await connectDb();
   //check if envoroment secret is defined
   if(!process.env.JWT_KEY) {
